@@ -1,33 +1,92 @@
-# .gitignore for Grails 1.2 and 1.3
-# Although this should work for most versions of grails, it is
-# suggested that you use the "grails integrate-with --git" command
-# to generate your .gitignore file.
+.classpath
+.project
+.eprj
+.cvsignore
+.idea
+.mymetadata
+.metadata
+.gradle
 
-# web application files
-/web-app/WEB-INF/classes
 
-# default HSQL database files for production mode
-/prodDb.*
+*.orig
+*.log
+*.iml
+*.ipr
+*.iws
+*.iml
+*.ser
+*.mdmp
 
-# general HSQL database files
-*Db.properties
-*Db.script
+*delete_me*
+*DELETE_ME*
+*deleteme*
+*DELETEME*
 
-# logs
-/stacktrace.log
-/test/reports
-/logs
+jetty-env.xml
+cvsdiff-output-*.txt
+cvsdiff.py
+cvslog.py
+testLog.txt
+temp1*.txt
+*.zip
 
-# project release file
-/*.war
+# ignore anything that begins and ends with "#"
+\#*\#
 
-# plugin release files
-/*.zip
-/plugin.xml
+.mule/
+.settings/
+.idea/
 
-# older plugin install locations
-/plugins
-/web-app/plugins
+WEB-INF/
+bin/
+build/
+tmp/
+temp/
+CVS/
+target/
 
-# "temporary" build files
-/target
+/**/pom.xml
+/**/BuildConfig.groovy
+/**/application.properties
+/**/SetupBuild.groovy
+
+# .Net Specific Ignores
+#===================================
+# Blanket ignored folders
+#===================================
+[Oo]bj/
+[Bb]in/
+[Dd]eploy/
+[Pp]ackages/
+/MappingCode/
+MappingCode/
+TestResults/
+PrecompiledWeb/
+generated/
+out/
+node_modules/
+
+#===================================
+# Blanket ignored extensions
+#===================================
+_ReSharper.*
+*.csproj.user
+*.[Rr]esharper.user
+*.ReSharper.user
+*.resharper
+*.suo
+*.cache
+*.dbmdl
+*.swp
+*.gpState
+*.rptproj.user
+*.dtproj.user
+*.dbproj.user
+*.rdl.data
+*.vsmdi
+*.*~
+*.ncrunchsolution
+*.ncrunchsolution.user
+*.DotSettings.user
+*.userprefs
+

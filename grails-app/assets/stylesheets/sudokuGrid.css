@@ -1,0 +1,27 @@
+.sudokuTable td {
+    border: 1px solid;
+    padding: 0;
+    text-align: center;
+}
+
+.sudokuTable .bdr20, .sudokuTable .bdr21, .sudokuTable .bdr22{
+    border-right: solid black;
+}
+
+.sudokuTable .thirdRow {
+    border-bottom: solid black;
+}
+
+.sudokuTable input {
+    background-color: #D9EDF7;
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:2em; height:1.5em;
+}
+
+.sudokuTable {
+    border: 4px solid black;
+}
+
