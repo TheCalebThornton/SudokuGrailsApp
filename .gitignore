@@ -46,9 +46,6 @@ CVS/
 target/
 
 /**/pom.xml
-/**/BuildConfig.groovy
-/**/application.properties
-/**/SetupBuild.groovy
 
 # .Net Specific Ignores
 #===================================
